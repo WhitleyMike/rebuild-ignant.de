@@ -1,58 +1,451 @@
 <!doctype html>
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <title>GitHub</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<head>
+  <meta charset="utf-8">
+  <title>iGNANT</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <!-- endbower -->
-        <!-- endbuild -->
+  <!-- build:css styles/vendor.css -->
+  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
 
-        <!-- build:css styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
-        <!-- endbuild -->
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.scss">
+  <!-- endbuild -->
 
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+<body>
+  <!--[if lt IE 10]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
 
-        <div class="hero-unit">
-            <h1>'Allo, 'Allo!</h1>
-            <p>You now have</p>
-            <ul>
-                <li>HTML5 Boilerplate</li>
-                <li>Sass</li>
-                <li>Modernizr</li>
-            </ul>
-        </div>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+  <!-- build: header and navigation -->
 
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="bower_components/jquery/dist/jquery.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
+  <header class="header">
 
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
-</body>
-</html>
+    <h1 class="logo"><a href="#"><img src="images/iGNANTlogo.png" alt="iGNANT Logo" no-repeat;
+      width: 165px; height: 77px;></a></h1>
+
+      <nav class="nav-main">
+        <ul>
+          <li><a href="#">EXCLUSIVES</a></li>
+          <li><a href="#">ARCHITECTURE</a></li>
+          <li><a href="#">PHOTOGRAPHY</a></li>
+          <li><a href="#">DESIGN</a></li>
+          <li><a href="#">ART</a></li>
+        </ul>
+      </nav>
+
+  </header>
+
+
+
+  <!-- build: banner -->
+
+  <banner class="banner">
+
+    <a href="#">
+
+      <div class="hero-image">
+        <img src="images/Jared_Chambers_24Hours_Head.jpg" alt="Jared Chambers">
+      </div>
+
+        <p class="banner-category">24 hours</p>
+        <h1 class="banner-title">Jared Chambers</h1>
+        <span class="more-button">Read More</span
+
+    </a>
+
+  </banner>
+
+
+
+  <!-- build: body section and articles -->
+
+
+  <main class="main-section">
+
+
+          <!-- build: post 1 -->
+
+          <post class="post">
+            <div class="post-content">
+
+              <div class="thumbnail">
+                <a href="#"><img src="images/wurst_pre.gif"></a>
+              </div>
+
+
+              <div class="text">
+
+                <div class="text-inner">
+                  <a href="#"><h2>Submarine Sandwich by PES</h2></a>
+                </div>
+
+                <div class="post-info">
+                  <a href="#">Video</a> · <span class="post-date">Dec 11, 2014</span>
+                </div>
+
+                <p class="description">Director and animator PES is best-known for his amazing Stop-Motion Videos. He already ‘cooked’ Western Spaghetti and Fresh…</p>
+                <p class="read-more"><a href="#"><span class="arrow">→ </span>Read more</a>
+                </div>
+
+              </div>
+            </post>
+
+            <!-- build: post 2 -->
+
+            <post class="post">
+              <div class="post-content">
+
+                <div class="thumbnail">
+                  <a href="#"><img src="images/bmw_Art.jpg"></a>
+                </div>
+
+
+                <div class="text">
+
+                  <div class="text-inner">
+                    <a href="#"><h2>BMW and Art Basel Launch Art Journey Awards</h2></a>
+                  </div>
+
+                  <div class="post-info">
+                    <a href="#">Art</a> · <span class="post-date">Dec 11, 2014</span>
+                  </div>
+
+                  <p class="description">In our yesterday’s Review of Art Basel Miami, we’ve already revealed that BMW is planing a new project…</p>
+                  <p class="read-more"><a href="#"><span class="arrow">→ </span>Read more</a>
+                  </div>
+
+                </div>
+              </post>
+
+              <!-- build: post 3 -->
+
+              <post class="post">
+                <div class="post-content">
+
+                  <div class="thumbnail">
+                    <a href="#"><img src="images/hot_dog_Jess_pre.jpg"></a>
+                  </div>
+
+
+                  <div class="text">
+
+                    <div class="text-inner">
+                      <a href="#"><h2>Hot Dogs by Jess Bonham</h2></a>
+                    </div>
+
+                    <div class="post-info">
+                      <a href="#">Photography</a> · <span class="post-date">Dec 11, 2014</span>
+                    </div>
+
+                    <p class="description">London-based photographer Jess Bonham was invited by food publication, The Gourmand to photograph some of London’s most dapper…</p>
+                    <p class="read-more"><a href="#"><span class="arrow">→ </span>Read more</a>
+                    </div>
+
+                  </div>
+                </post>
+
+                <!-- build: post 4 -->
+
+                <post class="post">
+                  <div class="post-content">
+
+                    <div class="thumbnail">
+                      <a href="#"><img src="images/Eylul_Aslan_Photography_pre.jpg"></a>
+                    </div>
+
+
+                    <div class="text">
+
+                      <div class="text-inner">
+                        <a href="#"><h2>Eylül Aslan’s Playful Photography</h2></a>
+                      </div>
+
+                      <div class="post-info">
+                        <a href="#">Photography</a> · <span class="post-date">Dec 10, 2014</span>
+                      </div>
+
+                      <p class="description">We fell in love with Eylül Aslan’s photography when we first discovered her while on the hunt for…</p>
+                      <p class="read-more"><a href="#"><span class="arrow">→ </span>Read more</a>
+                      </div>
+
+                    </div>
+                  </post>
+
+                  <!-- build: post 5 -->
+
+                  <post class="post">
+                    <div class="post-content">
+
+                      <div class="thumbnail">
+                        <a href="#"><img src="images/Kyoto_ontheroad_pre.jpg"></a>
+                      </div>
+
+
+                      <div class="text">
+
+                        <div class="text-inner">
+                          <a href="#"><h2>Kyoto – Young Minds in an old City</h2></a>
+                        </div>
+
+                        <div class="post-info">
+                          <a href="#">On the Road</a> · <span class="post-date">Dec 10, 2014</span>
+                        </div>
+
+                        <p class="description">Kyoto has become a haven for creatives from around the world. To explore this phenomenon mb! Magazine took…</p>
+                        <p class="read-more"><a href="#"><span class="arrow">→ </span>Read more</a>
+                        </div>
+
+                      </div>
+                    </post>
+
+                    <!-- build: post 6 -->
+
+                    <post class="post">
+                      <div class="post-content">
+
+                        <div class="thumbnail">
+                          <a href="#"><img src="images/The_Moon_Lamp_Nosinger_pre.jpg"></a>
+                        </div>
+
+
+                        <div class="text">
+
+                          <div class="text-inner">
+                            <a href="#"><h2>Moon Lamp by Nosinger</h2></a>
+                          </div>
+
+                          <div class="post-info">
+                            <a href="#">Design</a> · <span class="post-date">Dec 10, 2014</span>
+                          </div>
+
+                          <p class="description">Japanese design practice Nosinger created the LED light ‘Moon’. Inspired by the so called ‘Supermoon’, the lunar occurrence…</p>
+                          <p class="read-more"><a href="#"><span class="arrow">→ </span>Read more</a>
+                          </div>
+
+                        </div>
+                      </post>
+
+                      <!-- build: post 7 -->
+
+                      <post class="post">
+                        <div class="post-content">
+
+                          <div class="thumbnail">
+                            <a href="#"><img src="images/yusuke-asai-creating-here-arataniurano-tokyo-pre.jpg"></a>
+                          </div>
+
+
+                          <div class="text">
+
+                            <div class="text-inner">
+                              <a href="#"><h2>Hand painted installation by Yusuke Asai</h2></a>
+                            </div>
+
+                            <div class="post-info">
+                              <a href="#">Art</a> · <span class="post-date">Dec 09, 2014</span>
+                            </div>
+
+                            <p class="description">Japanese artist Yusuke Asai created this large-scale, painted installation with paper and marker in Tokyo. The piece is…</p>
+                            <p class="read-more"><a href="#"><span class="arrow">→ </span>Read more</a>
+                            </div>
+
+                          </div>
+                        </post>
+
+                        <!-- build: post 8 -->
+
+                        <post class="post">
+                          <div class="post-content">
+
+                            <div class="thumbnail">
+                              <a href="#"><img src="images/Art_Basel_Miami_14_pre.jpg"></a>
+                            </div>
+
+
+                            <div class="text">
+
+                              <div class="text-inner">
+                                <a href="#"><h2>Art Basel Miami 2014 – Our Review</h2></a>
+                              </div>
+
+                              <div class="post-info">
+                                <a href="#">Art</a> · <span class="post-date">Dec 09, 2014</span>
+                              </div>
+
+                              <p class="description">Last year we visited one of the biggest and most prestigious art fairs there is, the Art Basel…</p>
+                              <p class="read-more"><a href="#"><span class="arrow">→ </span>Read more</a>
+                              </div>
+
+                            </div>
+                          </post>
+
+                          <!-- build: post 9 -->
+
+                          <post class="post">
+                            <div class="post-content">
+
+                              <div class="thumbnail">
+                                <a href="#"><img src="images/ValeriePhillips_Arvida-Byström_pre.jpg"></a>
+                              </div>
+
+
+                              <div class="text">
+
+                                <div class="text-inner">
+                                  <a href="#"><h2>Art Basel Miami 2014 – Our Review</h2></a>
+                                </div>
+
+                                <div class="post-info">
+                                  <a href="#">Photography</a> · <span class="post-date">Dec 09, 2014</span>
+                                </div>
+
+                                <p class="description">We recently introduced you to Tumblr goddess, fashion icon and rainbow enigma Arvida Byström. The 22-year-old Swede has…</p>
+                                <p class="read-more"><a href="#"><span class="arrow">→ </span>Read more</a>
+                                </div>
+
+                              </div>
+                            </post>
+
+
+                            <!-- build: post 10 -->
+
+                            <post class="post">
+                              <div class="post-content">
+
+                                <div class="thumbnail">
+                                  <a href="#"><img src="images/Wolf_and_Dog_pre.jpg"></a>
+                                </div>
+
+
+                                <div class="text">
+
+                                  <div class="text-inner">
+                                    <a href="#"><h2>The Adventures of John and Wolf</h2></a>
+                                  </div>
+
+                                  <div class="post-info">
+                                    <a href="#">Photography</a> · <span class="post-date">Dec 09, 2014</span>
+                                  </div>
+
+                                  <p class="description">We came across this cool Tumblr called John and Wolf featuring the adventures of illustrator John Stortz and…</p>
+                                  <p class="read-more"><a href="#"><span class="arrow">→ </span>Read more</a>
+                                  </div>
+
+                                </div>
+                              </post>
+                              <nav class="next-page">
+                                <div class="next-page">
+                                  <a href="#">NEXT PAGE →</a>
+                                </div>
+                              </nav>
+                      </main>
+
+
+                      <!-- build: sidebar -->
+
+                      <sidebar class="sidebar">
+
+
+
+
+
+
+                      </sidebar>
+
+                    </content>
+
+                    <!-- build: footer -->
+
+                    <footer class="page-footer">
+
+                      <div class="footer-inner">
+
+                        <div class="content">
+
+                          <div class="footer-about">
+
+                            <div class="about">
+                              <h3 class="footerh3">ABOUT US</h3>
+                              <p>iGNANT is an interdisciplinary Berlin-based blog featuring creatives in the fields of art, design, photography and architecture. Editor in chief, Caroline Kurze and the team behind iGNANT is dedicated to the picture, to moods and esthetics, finding its expression in our in-house productions of photographs, videos and original written content.</p>
+                            </div>
+
+                          </div>
+
+
+                          <div class="follow-us">
+
+                            <h3 class="footerh3">FOLLOW US</h3>
+
+                            <ul>
+                              <li><a href="#">Facebook</a></li>
+                              <li><a href="#">Twitter</a></li>
+                              <li><a href="#">Youtube</a></li>
+                              <li><a href="#">Google+</a></li>
+                              <li><a href="#">Instagram</a></li>
+                              <li><a href="#">RSS</a></li>
+                              <li><a href="#">tumblr</a></li>
+                              <li><a href="#">Pinterest</a></li>
+                            </ul>
+
+                          </div>
+
+                          <div class="contact">
+
+                            <h3 class="footerh3">CONTACT</h3>
+
+                            <ul>
+                              <li><a href="#">General</a></li>
+                              <li><a href="#">Advertise</a></li>
+                              <li><a href="#">Submission</a></li>
+                            </ul>
+
+                          </div>
+
+                          <!-- build: footer-bottom -->
+
+                          <div class="footer-bottom">
+
+                            <h3>IMPRINT</h3>
+
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </footer>
+
+
+
+
+                    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+                    <script>
+                      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+                        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+                        e.src='//www.google-analytics.com/analytics.js';
+                        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+                        ga('create','UA-XXXXX-X');ga('send','pageview');
+                      </script>
+
+                      <!-- build:js scripts/vendor.js -->
+                      <!-- bower:js -->
+                      <script src="bower_components/jquery/dist/jquery.js"></script>
+                      <!-- endbower -->
+                      <!-- endbuild -->
+
+                      <!-- build:js scripts/main.js -->
+                      <script src="scripts/main.js"></script>
+                      <!-- endbuild -->
+                    </body>
+                    </html>

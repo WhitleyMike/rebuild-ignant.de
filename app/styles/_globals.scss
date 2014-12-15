@@ -1,11 +1,37 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  background: yellow;
-  font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
+  background: ffffff;
+  font-family: 'Montserrat', sans-serif;
   color: #333;
 }
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+
+.post-info {
+  font-family: serif;
+}
+
+.description {
+  font-family: serif;
+}
+
+.read-more {
+  font-family: serif;
+  color: #bca474;
+  text-decoration: none;
+}
+
+.banner-category {
+  font-family: serif;
+  color: #bca474;
+}
+
+
+.more-button {
+  font-family: serif;
 }
